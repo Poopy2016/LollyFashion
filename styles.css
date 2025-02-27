@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+}
+
+header {
+    background-color: #ADD8E6; /* Dark blue header */
+    color: white; /* White text in the header */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f39c12; /* Gold hover effect on links */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+section#home {
+    background-color: #ADD8E6; /* Red background for the homepage section */
+    text-align: center;
+    border-radius: 8px;
+}
+
+section#trends ul li {
+    background-color: #e2e2e2; /* Light grey background for trends */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333; /* Dark footer background */
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
